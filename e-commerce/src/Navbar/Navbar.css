@@ -1,0 +1,63 @@
+* {
+      padding: 0%;
+      margin: 0%;
+}
+
+.navbarDiv1 {
+      background-color: rgb(238, 161, 8);
+      position: fixed;
+      top: 0%;
+      width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.NavbarDiv {
+      display: flex;
+      /* border: 1px solid red; */
+      width: 80vw;
+      height: 10vh;
+      margin: auto;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 8px;
+      box-shadow: rgba(255, 255, 255, 0.966) 0px 5px 15px;
+
+}
+
+.NavbarInput {
+      border: 1px solid;
+      width: 20vw;
+      height: 5vh;
+      padding: 0px 20px;
+      font-size: medium;
+      border-radius: 8px;
+}
+
+.link {
+      text-decoration: none;
+      font-size: 1.5rem;
+}
+
+.cartLength{
+      color: rgb(0, 0, 0);
+      font-size: 1.2rem;
+      font-weight: 600;
+      position: absolute;
+      /* left: 5px; */
+}
+
+
+
+@media (min-width:0px) and (max-width:1000px) {
+      .NavbarDiv {
+            display: flex;
+            border: 1px solid;
+            width: 95%;
+            height: 10vh;
+            justify-content: space-around;
+            align-items: center;
+            margin: auto;
+      }
+}

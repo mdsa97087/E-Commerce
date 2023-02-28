@@ -1,0 +1,66 @@
+.sidebarDiv {
+      /* border: 3px solid blue; */
+      height: 120px;
+      display: grid;
+      text-align: center;
+      gap: 15px;
+      padding: 0px 30px;
+      margin-top: 20px 20px;
+
+}
+
+.form-check {
+      border: 1px solid black;
+      width: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      font-weight: 550;
+      height: 40px;
+
+}
+
+input[type=radio] {
+      border: 1px solid;
+}
+
+.filterRating_Div {
+      /* border: 3px solid blue; */
+      height: 100px;
+      text-align: center;
+      padding: 0px 30px;
+}
+
+.filterCatogryDiv{
+      /* border: 1px solid green; */
+      height: 280px;
+      text-align: center;
+      padding: 0px 30px;
+}
+
+
+
+@media  (min-width:0px) and (max-width:600px){
+      .sidebarDiv {
+            /* border: 3px solid blue; */
+            height: 50px;
+            display: flex;
+            text-align: center;
+            gap: 15px;
+            padding: 0px 30px;
+            margin-top: 10px;
+      
+      }
+      .resetAllDiv{
+            display: flex;
+            height: 40px;
+            justify-content: space-around;
+      }
+      .filterCatogryDiv{
+            /* border: 1px solid green; */
+            height: 100px;
+            margin-top: -50px;
+      }
+}
