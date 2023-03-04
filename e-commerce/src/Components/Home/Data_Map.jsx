@@ -25,7 +25,7 @@ function Data_Map() {
       // const genre = searchParams.getAll("genre");
       const queryParams = {
         params: {
-          _limit: 20,
+          _limit:10,
           _page: page,
           sort,
           byRating,

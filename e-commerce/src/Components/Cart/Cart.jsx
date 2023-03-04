@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import { removeFromCart } from "../../Redux/CartReducer/Cart_Action";
 import "./Cart.css";
 import StarRating from "./StarRating";
@@ -31,9 +32,11 @@ function Cart() {
               ₹ {total}
             </span>
           </h3>
-          <button type="button" className="btn btn-success">
-            CHECK OUT
-          </button>
+          <Link to="/checkout">
+            <button type="button" className="btn btn-success">
+              CHECK OUT
+            </button>
+          </Link>
         </div>
 
         {cart.map((cartItem) => (

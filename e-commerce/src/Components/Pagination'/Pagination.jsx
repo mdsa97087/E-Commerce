@@ -9,18 +9,18 @@ function Pagination({ page, fetchDataPost }) {
     >
       <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         disabled={page === 1}
         onClick={() => fetchDataPost(-1)}
       >
         PREVIOUS
       </button>
-      <button type="button" class="btn btn-secondary">
+      <button type="button" className="btn btn-secondary">
         {page}
       </button>
       <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         onClick={() => fetchDataPost(1)}
       >
         NEXT

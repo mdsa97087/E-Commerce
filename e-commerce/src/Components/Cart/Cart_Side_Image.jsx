@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 
 function Cart_Side_Image() {
   var cart = useSelector((state) => state.CartReducer.cart);
-  console.log(cart);
+  // console.log(cart);
   return (
     <div>
       {cart.map((img) => (

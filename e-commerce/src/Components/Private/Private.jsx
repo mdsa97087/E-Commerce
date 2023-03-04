@@ -5,7 +5,7 @@ function Private({ children }) {
   const isAuth = useSelector((state) => state.AuthReducer.isAuth);
 
   if (!isAuth) {
-    return <Navigate to="/login" />;
+    return <Navigate to="/signup" />;
   }
   return children;
 }

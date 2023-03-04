@@ -5,6 +5,7 @@ import Login from "../Components/Login/Login";
 import Cart from "../Components/Cart/Cart";
 import { Route, Routes } from "react-router-dom";
 import Private from "../Components/Private/Private";
+import Checkout from "../Components/Checkout/Checkout";
 
 function AllRouter() {
   return (
@@ -22,6 +23,7 @@ function AllRouter() {
             </Private>
           }
         ></Route>
+        <Route path="/checkout" element={<Checkout />} ></Route>
       </Routes>
     </div>
   );

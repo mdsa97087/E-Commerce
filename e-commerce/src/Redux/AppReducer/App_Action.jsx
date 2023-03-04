@@ -33,6 +33,7 @@ export const getData = (queryParams)=> (dispatch) => {
       return axios.get(`http://localhost:8080/clothing`,queryParams)
             .then((res) => {
                   dispatch(getDataSuccess(res.data))
+                  console.log(res.data)
             }).catch((err) => {
                   dispatch(getDataFailure(err))
             })

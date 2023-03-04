@@ -13,8 +13,8 @@ function Filter_By_Rating() {
       return el.rating >= byRating
   })
 
-  console.log(Fdata);
-  console.log(byRating);
+  // console.log(Fdata);
+  // console.log(byRating);
 
   return (
     <div className="filterRating_Div">
