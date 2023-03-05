@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Checkout.css";
 
 function Checkout() {
@@ -131,9 +132,11 @@ function Checkout() {
         </div>
       </div>
       <div className="btnDiv">
-        <button type="button" className="btn btn-danger">
-          CONFORM
-        </button>
+        <Link to='/otp'>
+          <button type="button" className="btn btn-danger">
+            CONFORM
+          </button>
+        </Link>
       </div>
     </>
   );

@@ -1,13 +1,13 @@
-import HelloUser from "./Components/Checkout/Checkout";
+import Otp from "./Components/Otp/Otp";
 import AllRouter from "./Navbar/AllRouter";
 import Navbar from "./Navbar/Navbar";
-
 
 function App() {
   return (
     <div className="App">
-     <Navbar />
-     <AllRouter />
+      {/* <Navbar />
+     <AllRouter /> */}
+      <Otp />
     </div>
   );
 }
