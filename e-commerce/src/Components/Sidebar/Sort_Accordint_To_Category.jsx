@@ -39,6 +39,7 @@ function Sort_Accordint_To_Category() {
         <button type="button" className="btn btn-danger">
           RESET FILTER
         </button>
+        
       </div>
     </div>
   );

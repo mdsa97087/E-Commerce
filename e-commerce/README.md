@@ -32,5 +32,4 @@ https://assignment-bd204.web.app
 5.    build 
 6.    npm run build
 7.    firebase deploy --only hosting
-8.    npm install --save otp-input-react
-8.    npm i react-otp-input
+
