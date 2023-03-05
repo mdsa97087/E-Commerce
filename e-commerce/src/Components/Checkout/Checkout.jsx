@@ -78,36 +78,41 @@ function Checkout() {
         </div>
         <div id="inputPart" className="small-5 columns end">
           <div className="callout margin-top50">
-            <label>NAME</label>
-            <br />
-            <input
-              type="text"
-              onChange={typeName}
-              placeholder="Enter Your Name"
-            />
-            <br />
-            <br />
-
             <label>NUMBER</label>
             <br />
             <input
-              type="text"
+              required
+              type="number"
               maxLength="16"
               onChange={typeNumber}
               placeholder="Enter Number"
             />
             <br />
             <br />
+
+            <label>NAME</label>
+            <br />
+            <input
+              required
+              type="text"
+              onChange={typeName}
+              placeholder="Enter Your Name"
+            />
+
+            <br />
+            <br />
             <div className="row">
               <label className="column">EXPIRATION DATE</label>
               <div className="small-4 columns">
                 <input
+                  required
                   type="text"
                   maxLength="2"
                   onChange={typeMonth}
                   placeholder="Enter Month"
                 />
                 <input
+                  required
                   type="text"
                   maxLength="2"
                   onChange={typeDay}
@@ -121,6 +126,7 @@ function Checkout() {
                 <label>CCV</label>
                 <br />
                 <input
+                  required
                   type="text"
                   maxLength="3"
                   onChange={typeCvv}
@@ -132,7 +138,7 @@ function Checkout() {
         </div>
       </div>
       <div className="btnDiv">
-        <Link to='/otp'>
+        <Link to="/otp">
           <button type="button" className="btn btn-danger">
             CONFORM
           </button>

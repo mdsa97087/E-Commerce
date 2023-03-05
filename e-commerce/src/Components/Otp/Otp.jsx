@@ -163,7 +163,7 @@ const Otp = () => {
           </div>
         </>
       ) : (
-        <> verified</>
+        <> Order SuccessFull </>
       )}
     </div>
   );
