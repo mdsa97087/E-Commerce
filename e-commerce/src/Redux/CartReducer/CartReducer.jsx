@@ -6,6 +6,7 @@ import {
 
 const initState = {
   cart: [],
+  byRating:0,
 };
 
 const CartReducer = (state = initState, action) => {

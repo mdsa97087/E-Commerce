@@ -28,12 +28,14 @@ const getDataFailure = () => {
 
 //  ``````````````` API CALLING `````````````
 
+// https://fakestoreapi.com/products
+
 export const getData = (queryParams)=> (dispatch) => {
       dispatch(getDataRequest())
       return axios.get(`http://localhost:8080/clothing`,queryParams)
             .then((res) => {
                   dispatch(getDataSuccess(res.data))
-                  console.log(res.data)
+                  // console.log(res.data)
             }).catch((err) => {
                   dispatch(getDataFailure(err))
             })

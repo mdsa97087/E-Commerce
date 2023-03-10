@@ -4,7 +4,7 @@ import { useLocation, useSearchParams } from "react-router-dom";
 import { getData } from "../../Redux/AppReducer/App_Action";
 import Add_Remove_Cart from "../Cart/Add_Remove_Cart";
 import StarRating from "../Cart/StarRating";
-import Pagination from "../Pagination'/Pagination";
+import Pagination from "../Pagination/Pagination";
 import "./Data_Map.css";
 
 function Data_Map() {
@@ -25,7 +25,7 @@ function Data_Map() {
       // const genre = searchParams.getAll("genre");
       const queryParams = {
         params: {
-          _limit:10,
+          _limit: 10,
           _page: page,
           sort,
           byRating,
@@ -60,6 +60,8 @@ function Data_Map() {
               <img src={el.images[0]} alt={el.title} height={200} width={180} />
               <h5>{el.title}</h5>
               <h5>₹ {el.strike_price}</h5>
+
+              {/*     ------      RATING      -------------- */}
               <StarRating rating={el.rating} />
               <br />
 

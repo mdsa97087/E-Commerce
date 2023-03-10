@@ -163,7 +163,8 @@ const Otp = () => {
           </div>
         </>
       ) : (
-        <> Order SuccessFull </>
+        <> 
+        <img src="https://thumbs.gfycat.com/GracefulImpishFlea-size_restricted.gif" alt="" /> </>
       )}
     </div>
   );
