@@ -10,7 +10,7 @@ const Otp = () => {
   const textBase = useRef(null);
 
   //    ```       GENERATE OTP   ```
-  const getOTP = () => newOtp(Math.floor(1000 + Math.random() * 9000));
+  const getOTP = () => newOtp(Math.floor(100000 + Math.random() * 900000));
 
   useEffect(() => {
     getOTP();
@@ -111,11 +111,11 @@ const Otp = () => {
           <h1> Enter OTP : {otp}</h1>
 
           <div className="otp-base" ref={textBase}>
-            {new Array(4).fill(null).map((input) => {
+            {new Array(6).fill(null).map((input) => {
               return (
                 <input
                   className="inputData"
-                  type="text"
+                  type="number"
                   maxLength="1"
                   placeholder="*"
                   onChange={(e) => focusNext(e)}

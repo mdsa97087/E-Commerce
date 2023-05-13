@@ -1,0 +1,44 @@
+.homeDiv {
+      /* border: 2px solid green; */
+      display: flex;
+      width: 95vw;
+      margin:100px  auto;
+      gap: 25px;
+      
+}
+.dataDiv {
+      /* border: 2px solid blue; */
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+
+}
+
+.mapDiv {
+      /* border: 1px solid green; */
+      padding: 5px;
+      padding-bottom: 15px;
+      width: 240px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      text-align: center;
+      border-radius: 5px;
+      gap: 30px;
+}
+
+
+
+
+
+@media  (min-width:0px) and (max-width:600px){
+      .homeDiv {
+            /* border: 2px solid green; */
+            display: grid;
+            width: 95vw;
+            margin: 100px auto;
+            gap: 25px;
+      
+      }
+      
+}
+
