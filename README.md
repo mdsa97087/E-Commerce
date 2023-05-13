@@ -1,6 +1,6 @@
 ### NOTE
 DEPLOY LINK
-https://e-commerce-e9w64adnt-mdsa97087.vercel.app//
+https://e-commerce-mdsa97087.vercel.app/
 
 
 
