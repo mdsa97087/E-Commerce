@@ -1,7 +1,7 @@
 ### NOTE
 
 DEPLOY LINK VERCEL 
-https://e-commerce-e9w64adnt-mdsa97087.vercel.app//
+https://e-commerce-mdsa97087.vercel.app/
 
 DEPLOY LINK FIREBASE
 https://assignment-bd204.web.app
@@ -28,7 +28,7 @@ https://assignment-bd204.web.app
 1.    npm install -g firebase-tools
 2.    firebase login
 3.    firebase init
-4.    select Hosting configure files for  firebase hosting and set up github  action deploy `${and space click}`
+4.    select Hosting configure files for  firebase hosting and set up   github  action deploy `${and space click}`
 5.    build 
 6.    npm run build
 7.    firebase deploy --only hosting

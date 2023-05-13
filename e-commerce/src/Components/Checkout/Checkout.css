@@ -83,7 +83,7 @@ input{
       justify-content: center;
 }
 
-@media (max-width:700px){
+@media (min-width:600px) and (max-width:1800px){
       #cartData{
             width: 98vw;
       }
